@@ -325,7 +325,7 @@ a{
 }
 
 .form{
-  padding-left: 5%;
+  padding-left: 10%;
   font-family: "Roboto";
 }
 
@@ -387,4 +387,50 @@ footer .fa-twitter{
   color: rgb(87, 202, 255);
 }
 
+.form input{
+  margin-top: 20px; 
+  width: 20%;
+  height: 50px;
+  background: #131419;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding: 5px 15px;
+  color: #fff;
+  font-size: 18px;
+  color: #03a9f4;
+  box-shadow: inset -5px -5px 10px rgba(255,255,255,0.1),
+  inset 5px 5px 15px rgba(0,0,0,0.8)
 
+}
+
+.form textarea{
+  margin-top: 20px; 
+  width: 80%;
+  height: 120px;
+  background: #131419;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding: 5px 15px;
+  color: #fff;
+  font-size: 18px;
+  color: #03a9f4;
+  box-shadow: inset -5px -5px 10px rgba(255,255,255,0.1),
+  inset 5px 5px 15px rgba(0,0,0,0.8)
+
+}
+
+footer{
+  padding-top: 0;
+  margin-top: 0;
+  background-color: rgb(41, 41, 41);
+}
+
+.success a{
+  margin-left: 45%;
+}
+
+.success p{
+  margin-bottom: 100px;
+}
